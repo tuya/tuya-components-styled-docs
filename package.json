@@ -33,10 +33,14 @@
     "dumi": "^1.1.16",
     "lint-staged": "^10.0.7",
     "prettier": "^1.19.1",
+    "typescript": "^4.3.5",
     "yorkie": "^2.0.0"
   },
   "resolutions": {
     "speech-rule-engine": "3.3.1"
   },
-  "gitHead": "51a0373ea331e5399eb6cce46e0a9addbbcc316e"
+  "gitHead": "51a0373ea331e5399eb6cce46e0a9addbbcc316e",
+  "dependencies": {
+    "@types/tuya-panel-kit": "^4.0.8"
+  }
 }

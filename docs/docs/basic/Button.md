@@ -55,4 +55,4 @@ demo: /basic/button
 
 继承自 [TouchableOpacityProps](https://reactnative.dev/docs/touchableopacity#props)
 
-<API name="ButtonProps"></API>
+<API src="../../../node_modules/@types/tuya-panel-kit/index.d.ts" exports='["Button"]'></API>
