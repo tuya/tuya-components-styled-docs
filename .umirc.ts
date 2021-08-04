@@ -3,6 +3,8 @@ import { defineConfig, IConfig } from 'dumi';
 const isProd =
   process.env.NODE_ENV === 'production' && process.env.PREVIEW_PR !== 'true';
 
+const repo = 'saber2pr-umi/styled';
+
 export default defineConfig({
   ssr: isProd ? {} : false,
   exportStatic: isProd ? {} : false,
@@ -42,9 +44,15 @@ export default defineConfig({
     demoUrl:
       process.env.NODE_ENV === 'development'
         ? 'http://localhost:8001'
-          // 'https://tuyainc.github.io/tuya-panel-kit-example/'
-        : 'https://tuyainc.github.io/tuya-panel-kit-example/',
-  }, 
+        : // 'https://tuyainc.github.io/tuya-panel-kit-example/'
+          'https://tuyainc.github.io/tuya-panel-kit-example/',
+    repository: {
+      url: `https://github.com/${repo}`, // github仓库地址
+      branch: 'master', // 分支
+      platform: 'github', // github | gitlab
+      // dir: '/site' // 目录，在github仓库中的子文件夹
+    },
+  },
   // 顶部导航
   // markdown中可通过meta中nav设置，这里是扩展的nav
   navs: {
@@ -107,7 +115,7 @@ export default defineConfig({
   hash: isProd,
   // base: isProd ? '/tuya-panel-kit-docs' : '/', // router base
   publicPath: isProd
-    ? '//cdn.jsdelivr.net/gh/TuyaInc/tuya-panel-kit-docs@gh-pages/' // cdn地址
+    ? `//cdn.jsdelivr.net/gh/${repo}@gh-pages/` // cdn地址
     : '/',
   // more config: https://d.umijs.org/config
 } as IConfig);
