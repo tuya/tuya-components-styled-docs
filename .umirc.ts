@@ -45,7 +45,7 @@ export default defineConfig({
       process.env.NODE_ENV === 'development'
         ? 'http://localhost:8001'
         : // 'https://tuyainc.github.io/tuya-panel-kit-example/'
-          'https://tuyainc.github.io/tuya-panel-kit-example/',
+          'https://saber2pr-umi.github.io/styled-demo/',
     repository: {
       url: `https://github.com/${repo}`, // github仓库地址
       branch: 'master', // 分支
