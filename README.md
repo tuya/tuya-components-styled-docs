@@ -1,4 +1,4 @@
-# Tuya 组件文档模版
+# Tuya 风格化组件文档
 
 - Demo仓库地址：https://github.com/tuya/tuya-panel-kit/tree/master/example/tuya-components-styled
 - Docs仓库地址：https://github.com/tuya-umi-docs-team/tuya-components-styled-docs
