@@ -34,24 +34,11 @@ export default defineConfig({
   logo:
     'https://imagesd.tuyaus.com/tyims/rms-static/c118f100-7bd1-11ea-be8a-afe9921c3d8a-1586595140625.ico?tyName=tuya_favicon.ico',
   themeConfig: {
-    // demo底部显示的二维码，扫码协议详见wiki
-    qrcode:
-      'tuyaSmart--addVirtualDev?productId=mvhcrizelobov3dw&token=release_common_component',
-    // 组件属性表格数据源
-    apiData:
-      'https://cdn.jsdelivr.net/npm/tuya-panel-kit-props-data/props.json',
     // demo部署地址
     demoUrl:
       process.env.NODE_ENV === 'development'
-        ? 'http://localhost:8001'
-        : // 'https://tuyainc.github.io/tuya-panel-kit-example/'
-          'https://saber2pr-umi.github.io/styled-demo/',
-    repository: {
-      url: `https://github.com/${repo}`, // github仓库地址
-      branch: 'master', // 分支
-      platform: 'github', // github | gitlab
-      // dir: '/site' // 目录，在github仓库中的子文件夹
-    },
+        ? 'https://tuya.github.io/tuya-panel-kit/tuya-components-styled'
+        : 'https://tuyainc.github.io/tuya-panel-kit-example/'
   },
   // 顶部导航
   // markdown中可通过meta中nav设置，这里是扩展的nav
@@ -70,17 +57,6 @@ export default defineConfig({
         title: 'More',
         path: 'https://developer.tuya.com/cn/docs/iot/preface?id=K9m1fn6ycetd0',
       },
-      //       {
-      //         title: '版本',
-      //         children: [
-      //           {
-      //             title: 'v1',
-      //           },
-      //           {
-      //             title: 'v2',
-      //           },
-      //         ],
-      //       },
     ],
     en: [
       null,
@@ -96,17 +72,6 @@ export default defineConfig({
         title: 'More',
         path: 'https://developer.tuya.com/cn/docs/iot/preface?id=K9m1fn6ycetd0',
       },
-      //       {
-      //         title: 'Version',
-      //         children: [
-      //           {
-      //             title: 'v1',
-      //           },
-      //           {
-      //             title: 'v2',
-      //           },
-      //         ],
-      //       },
     ],
   },
   resolve: {

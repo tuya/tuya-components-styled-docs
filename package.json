@@ -9,7 +9,7 @@
     "access": "public"
   },
   "scripts": {
-    "start": "dumi dev",
+    "start": "BABEL_POLYFILL=none dumi dev",
     "build": "dumi build",
     "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\""
   },
@@ -41,6 +41,8 @@
   },
   "gitHead": "51a0373ea331e5399eb6cce46e0a9addbbcc316e",
   "dependencies": {
-    "@types/tuya-panel-kit": "^4.0.8"
+    "@types/tuya-panel-kit": "^4.0.8",
+    "tuya-panel-style-button": "^0.0.1",
+    "tuya-panel-style-button-card": "^0.0.1"
   }
 }
