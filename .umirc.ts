@@ -3,7 +3,7 @@ import { defineConfig, IConfig } from 'dumi';
 const isProd =
   process.env.NODE_ENV === 'production' && process.env.PREVIEW_PR !== 'true';
 
-const repo = 'saber2pr-umi/styled';
+const repo = 'tuya-umi-docs-team/tuya-components-styled-docs';
 
 export default defineConfig({
   ssr: isProd ? {} : false,
@@ -79,7 +79,7 @@ export default defineConfig({
     passivePreview: true,
   },
   hash: isProd,
-  base: isProd ? '/styled' : '/', // router base
+  base: isProd ? `/${repo.split('/')[1]}` : '/', // router base
   publicPath: isProd
     ? `//cdn.jsdelivr.net/gh/${repo}@gh-pages/` // cdn地址
     : '/',
