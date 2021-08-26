@@ -38,7 +38,8 @@ export default defineConfig({
     demoUrl:
       process.env.NODE_ENV === 'development'
         ? 'https://tuya.github.io/tuya-panel-kit/tuya-components-styled'
-        : 'https://tuyainc.github.io/tuya-panel-kit-example/'
+        // ? 'https://localhost:8081'
+        : 'https://tuya.github.io/tuya-panel-kit/tuya-components-styled'
   },
   // 顶部导航
   // markdown中可通过meta中nav设置，这里是扩展的nav
