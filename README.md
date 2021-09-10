@@ -21,7 +21,7 @@
 1. md 文件命名：大驼峰
 2. jsdoc 注释规范：
 
-中因为使用`@description.en`和`@description.zh`
+中英文使用`@description.en`和`@description.zh`
 
 ```ts
 export interface ISwitchCardProps {
