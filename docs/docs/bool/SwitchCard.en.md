@@ -43,3 +43,5 @@ import TuyaRNSvgs from 'tuya-panel-kit/lib/components/iconfont/svg/defaultSvg';
 ```
 
 ## API
+
+<API src="../../../node_modules/tuya-panel-style-switch-card/lib/index.d.ts" exports='["ClassicSwitchCard"]'></API>

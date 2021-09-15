@@ -38,3 +38,5 @@ import { AcrylicDisplayCard } from 'tuya-panel-acrylic-kit';
 ```
 
 ## API
+
+<API src="../../../node_modules/tuya-panel-style-display-card/lib/index.d.ts" exports='["ClassicDisplayCard"]'></API>

@@ -40,3 +40,11 @@ import TuyaRNSvgs from 'tuya-panel-kit/lib/components/iconfont/svg/defaultSvg';
 ```
 
 ## API
+
+### ClassicBlockCard && AcrylicBlockCard
+
+<API src="../../../node_modules/tuya-panel-style-block-card/lib/index.d.ts" exports='["ClassicBlockCard"]'></API>
+
+### NordicBlockCard
+
+<API src="../../../node_modules/tuya-panel-style-block-card/lib/index.d.ts" exports='["NordicBlockCard"]'></API>

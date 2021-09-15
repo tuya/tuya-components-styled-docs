@@ -30,3 +30,11 @@ import TuyaRNSvgs from 'tuya-panel-kit/lib/components/iconfont/svg/defaultSvg';
 ```
 
 ## API
+
+### ClassicStepCard
+
+<API src="../../../node_modules/tuya-panel-style-step-card/lib/index.d.ts" exports='["ClassicStepCard"]'></API>
+
+### NordicStepCard
+
+<API src="../../../node_modules/tuya-panel-style-step-card/lib/index.d.ts" exports='["NordicStepCard"]'></API>

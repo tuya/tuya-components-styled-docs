@@ -40,3 +40,5 @@ import TuyaRNSvgs from 'tuya-panel-kit/lib/components/iconfont/svg/defaultSvg';
 ```
 
 ## API
+
+<API src="../../../node_modules/tuya-panel-style-depict-card/lib/index.d.ts" exports='["ClassicDepictCard"]'></API>

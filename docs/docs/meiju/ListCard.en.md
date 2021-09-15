@@ -34,3 +34,5 @@ const [value, setValue] = React.useState('world');
 ```
 
 ## API
+
+<API src="../../../node_modules/tuya-panel-style-list-card/lib/index.d.ts" exports='["NordicListCard"]'></API>
