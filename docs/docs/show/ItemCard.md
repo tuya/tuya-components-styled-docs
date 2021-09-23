@@ -1,4 +1,6 @@
 ---
+group:
+  title: 显示
 title: ItemCard 展示型卡片
 demo: /show/item-card
 ---

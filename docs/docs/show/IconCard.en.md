@@ -1,4 +1,6 @@
 ---
+group:
+  title: Show
 title: IconCard
 demo: /show/icon-card
 ---

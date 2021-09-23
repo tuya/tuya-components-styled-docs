@@ -1,4 +1,6 @@
 ---
+group:
+  title: 显示
 title: IconCard 图标文本块状卡片
 demo: /show/icon-card
 ---

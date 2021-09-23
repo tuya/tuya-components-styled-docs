@@ -1,4 +1,6 @@
 ---
+group:
+  title: 显示
 title: DisplayCard 文本描述卡片
 demo: /show/display-card
 ---

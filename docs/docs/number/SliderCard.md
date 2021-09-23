@@ -1,4 +1,6 @@
 ---
+group:
+  title: 数值
 title: SliderCard 滚动条卡片
 demo: /number/slider-card
 ---

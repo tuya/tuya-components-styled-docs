@@ -1,4 +1,6 @@
 ---
+group:
+  title: Enumerate
 title: ListCard
 demo: /enum/list-card
 ---

@@ -1,4 +1,6 @@
 ---
+group:
+  title: Boolean
 title: SwitchCard
 demo: /bool/switch-card
 ---

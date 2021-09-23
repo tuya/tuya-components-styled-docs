@@ -1,4 +1,6 @@
 ---
+group:
+  title: Show
 title: DisplayCard
 demo: /show/display-card
 ---

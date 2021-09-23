@@ -1,4 +1,6 @@
 ---
+group:
+  title: 数值
 title: StepCard 步进器卡片
 demo: /number/step-card
 ---

@@ -1,4 +1,6 @@
 ---
+group:
+  title: 布尔
 title: SwitchCard 布尔开关卡片
 demo: /bool/switch-card
 ---

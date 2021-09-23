@@ -1,4 +1,6 @@
 ---
+group:
+  title: Number
 title: SliderCard
 demo: /number/slider-card
 ---

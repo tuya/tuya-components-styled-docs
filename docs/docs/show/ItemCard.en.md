@@ -1,4 +1,6 @@
 ---
+group:
+  title: Show
 title: ItemCard
 demo: /show/item-card
 ---

@@ -1,4 +1,6 @@
 ---
+group:
+  title: Number
 title: StepCard
 demo: /number/step-card
 ---
