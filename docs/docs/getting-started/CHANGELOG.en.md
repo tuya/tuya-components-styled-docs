@@ -1,6 +1,7 @@
 ---
 group:
-  title: 开发指南
+  title: Guides
+  order: 1
 
 title: Changelog
 ---
