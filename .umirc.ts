@@ -34,6 +34,8 @@ export default defineConfig({
   logo:
     'https://imagesd.tuyaus.com/tyims/rms-static/c118f100-7bd1-11ea-be8a-afe9921c3d8a-1586595140625.ico?tyName=tuya_favicon.ico',
   themeConfig: {
+    // 修复locales和path冲突
+    fixLocales: true,
     // demo部署地址
     demoUrl:
       process.env.NODE_ENV === 'development'
