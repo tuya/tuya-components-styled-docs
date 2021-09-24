@@ -35,8 +35,6 @@ demo: /
 
 ---
 
-> 这里是文档正文首页，修改/docs/docs/getting-started/README.md 文件内容可以更新本页面！
-
 ## 特性
 
 - 40+ 开箱即用的高质量组件

@@ -35,8 +35,6 @@ demo: /
 
 ---
 
-> Here is the document body home page, modify /docs/docs/ right-started/readme.md file content can update this page!
-
 ## Feature
 
 - 40+ High-quality components out of the box.

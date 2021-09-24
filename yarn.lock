@@ -409,8 +409,8 @@
 
 "@tuya/dumi-theme-tuya@^2.3.1":
   version "2.3.1"
-  resolved "https://registry.npmjs.org/@tuya/dumi-theme-tuya/-/dumi-theme-tuya-2.3.1.tgz#7737d14dadeccd9479c8e9c7ee20375c59e2d31e"
-  integrity sha512-JfpVFg57K6vyE39AKqY3NVW2HYzWLQLBBmiZ+w9eomKSQMJ5Xz+Y1+vw2YxFQgiaYgYIN4J/MimxJbHNdTI5BA==
+  resolved "https://registry.npmmirror.com/@tuya/dumi-theme-tuya/download/@tuya/dumi-theme-tuya-2.3.1.tgz#7737d14dadeccd9479c8e9c7ee20375c59e2d31e"
+  integrity sha1-dzfRTa3szZR5yOnH7iA3XFni0x4=
   dependencies:
     antd "^4.16.6"
     axios "^0.21.1"
