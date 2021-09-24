@@ -225,7 +225,7 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.10.1", "@babel/runtime@^7.10.2", "@babel/runtime@^7.10.4", "@babel/runtime@^7.11.1", "@babel/runtime@^7.11.2", "@babel/runtime@^7.12.1", "@babel/runtime@^7.12.5", "@babel/runtime@^7.8.4":
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.10.1", "@babel/runtime@^7.10.2", "@babel/runtime@^7.10.4", "@babel/runtime@^7.10.5", "@babel/runtime@^7.11.1", "@babel/runtime@^7.11.2", "@babel/runtime@^7.12.1", "@babel/runtime@^7.12.5", "@babel/runtime@^7.4.5", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4":
   version "7.15.4"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.15.4.tgz#fd17d16bfdf878e6dd02d19753a39fa8a8d9c84a"
   integrity sha512-99catp6bHCaxr4sJ/DbTGgHS4+Rs2RVd2g7iOap6SLGPDknRK9ztKNsE/Fg6QhSeh1FGE5f6gHGQmvvn3I3xhw==
@@ -713,6 +713,17 @@
   resolved "https://registry.yarnpkg.com/@umijs/plugin-analytics/-/plugin-analytics-0.2.2.tgz#575fd231d4327ea13413217aa1b5fc6bdd89465e"
   integrity sha512-dVDzUfgIdEwdCC6a5IsMYpIPI+bEZjBEqIhAvw9dic6Vk77w9RxQxyRfW11dDmdXLAwWphp22NntQNt1ejZPtg==
 
+"@umijs/plugin-qiankun@^2.33.1":
+  version "2.33.1"
+  resolved "https://registry.nlark.com/@umijs/plugin-qiankun/download/@umijs/plugin-qiankun-2.33.1.tgz?cache=0&sync_timestamp=1631181450067&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40umijs%2Fplugin-qiankun%2Fdownload%2F%40umijs%2Fplugin-qiankun-2.33.1.tgz#ceba178e31c7b8faf3599f662aec008fb536848f"
+  integrity sha1-zroXjjHHuPrzWZ9mKuwAj7U2hI8=
+  dependencies:
+    "@babel/runtime" "^7.4.5"
+    address "^1.1.2"
+    lodash "^4.17.15"
+    path-to-regexp "^1.7.0"
+    qiankun "^2.2.1"
+
 "@umijs/preset-built-in@3.5.18":
   version "3.5.18"
   resolved "https://registry.yarnpkg.com/@umijs/preset-built-in/-/preset-built-in-3.5.18.tgz#eef47244a7727a46cfaec320712770aa486728bd"
@@ -891,6 +902,11 @@ acorn@^8.2.4, acorn@^8.4.1:
   version "8.5.0"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-8.5.0.tgz#4512ccb99b3698c752591e9bb4472e38ad43cee2"
   integrity sha512-yXbYeFy+jUuYd3/CDcg2NkIYE991XYX/bje7LmjJigUciaeO1JR4XxXgCIV1/Zc/dRuFEyw1L0pbA+qynJkW5Q==
+
+address@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.npm.taobao.org/address/download/address-1.1.2.tgz#bf1116c9c758c51b7a933d296b72c221ed9428b6"
+  integrity sha1-vxEWycdYxRt6kz0pa3LCIe2UKLY=
 
 agent-base@6:
   version "6.0.2"
@@ -3227,6 +3243,13 @@ import-from@^2.1.0:
   dependencies:
     resolve-from "^3.0.0"
 
+import-html-entry@^1.9.0:
+  version "1.11.1"
+  resolved "https://registry.npm.taobao.org/import-html-entry/download/import-html-entry-1.11.1.tgz#3d8c5977926bdd122ab8e658965c102068b4af8d"
+  integrity sha1-PYxZd5Jr3RIquOZYllwQIGi0r40=
+  dependencies:
+    "@babel/runtime" "^7.7.2"
+
 indent-string@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/indent-string/-/indent-string-4.0.0.tgz#624f8f4497d619b2d9768531d58f4122854d7251"
@@ -3820,7 +3843,7 @@ lodash.throttle@^4.1.1:
   resolved "https://registry.yarnpkg.com/lodash.throttle/-/lodash.throttle-4.1.1.tgz#c23e91b710242ac70c37f1e1cda9274cc39bf2f4"
   integrity sha1-wj6RtxAkKscMN/HhzaknTMOb8vQ=
 
-lodash@^4.16.6, lodash@^4.17.21, lodash@^4.17.4, lodash@^4.7.0:
+lodash@^4.16.6, lodash@^4.17.11, lodash@^4.17.15, lodash@^4.17.21, lodash@^4.17.4, lodash@^4.7.0:
   version "4.17.21"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
@@ -5157,6 +5180,17 @@ punycode@^2.1.0, punycode@^2.1.1:
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
   integrity sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
 
+qiankun@^2.2.1:
+  version "2.5.0"
+  resolved "https://registry.nlark.com/qiankun/download/qiankun-2.5.0.tgz?cache=0&sync_timestamp=1631881297235&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fqiankun%2Fdownload%2Fqiankun-2.5.0.tgz#2acb15448d589822278fce8571e79fb9c12e755d"
+  integrity sha1-KssVRI1YmCInj86FceefucEudV0=
+  dependencies:
+    "@babel/runtime" "^7.10.5"
+    import-html-entry "^1.9.0"
+    lodash "^4.17.11"
+    single-spa "^5.9.2"
+    tslib "^1.10.0"
+
 qr.js@0.0.0:
   version "0.0.0"
   resolved "https://registry.yarnpkg.com/qr.js/-/qr.js-0.0.0.tgz#cace86386f59a0db8050fa90d9b6b0e88a1e364f"
@@ -6125,6 +6159,11 @@ simple-swizzle@^0.2.2:
   dependencies:
     is-arrayish "^0.3.1"
 
+single-spa@^5.9.2:
+  version "5.9.3"
+  resolved "https://registry.nlark.com/single-spa/download/single-spa-5.9.3.tgz#2d151cbb3b273629a5b27b30a3b8ca847dcba4c5"
+  integrity sha1-LRUcuzsnNimlsnswo7jKhH3LpMU=
+
 sitemap@^6.3.3:
   version "6.4.0"
   resolved "https://registry.yarnpkg.com/sitemap/-/sitemap-6.4.0.tgz#b4bc4edf36de742405a7572bc3e467ba484b852e"
@@ -6627,7 +6666,7 @@ ts-node@^10.2.1:
     make-error "^1.1.1"
     yn "3.1.1"
 
-tslib@^1.9.0:
+tslib@^1.10.0, tslib@^1.9.0:
   version "1.14.1"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
   integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
