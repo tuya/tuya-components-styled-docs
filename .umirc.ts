@@ -42,6 +42,8 @@ export default defineConfig({
         ? 'https://tuya.github.io/tuya-panel-kit/tuya-components-styled'
         : // ? 'http://localhost:8000'
           'https://tuya.github.io/tuya-panel-kit/tuya-components-styled',
+    typeAssetsUrl:
+      'https://cdn.jsdelivr.net/gh/tuya-umi-docs-team/tuya-components-styled-docs@gh-pages/types-assets.json',
   },
   // 顶部导航
   // markdown中可通过meta中nav设置，这里是扩展的nav
