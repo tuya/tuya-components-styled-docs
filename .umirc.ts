@@ -87,9 +87,5 @@ export default defineConfig({
   publicPath: isProd
     ? `//cdn.jsdelivr.net/gh/${repo}@gh-pages/` // cdn地址
     : '/',
-  // 微前端化
-  qiankun: {
-    slave: {},
-  },
   // more config: https://d.umijs.org/config
 } as IConfig);

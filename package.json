@@ -33,7 +33,6 @@
     "@saber2pr/ts-compiler": "^0.2.4",
     "@tuya/dumi-theme-tuya": "^2.3.1",
     "@typescript/twoslash": "^3.0.0",
-    "@umijs/plugin-qiankun": "^2.33.1",
     "babel-plugin-import": "^1.13.3",
     "dumi": "1.1.29",
     "lint-staged": "^10.0.7",
