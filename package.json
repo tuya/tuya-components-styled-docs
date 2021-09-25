@@ -1,0 +1,55 @@
+{
+  "version": "0.0.1",
+  "name": "tuya-components-styled",
+  "author": {
+    "name": "muhai.li",
+    "email": "muhai.li@tuya.com"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "postinstall": "patch-package",
+    "start": "BABEL_POLYFILL=none dumi dev",
+    "build": "dumi build",
+    "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\"",
+    "job": "ts-node scripts/main"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "typings": "dist/index.d.ts",
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,jsx,less,md,json}": [
+      "prettier --write"
+    ],
+    "*.ts?(x)": [
+      "prettier --parser=typescript --write"
+    ]
+  },
+  "devDependencies": {
+    "@saber2pr/ts-compiler": "^0.2.4",
+    "@tuya/dumi-theme-tuya": "^2.3.1",
+    "@typescript/twoslash": "^3.0.0",
+    "babel-plugin-import": "^1.13.3",
+    "dumi": "1.1.29",
+    "lint-staged": "^10.0.7",
+    "patch-package": "^6.4.7",
+    "prettier": "^1.19.1",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.3.5",
+    "yorkie": "^2.0.0"
+  },
+  "resolutions": {
+    "speech-rule-engine": "3.3.1"
+  },
+  "gitHead": "51a0373ea331e5399eb6cce46e0a9addbbcc316e",
+  "dependencies": {
+    "@types/tuya-panel-kit": "^4.0.8",
+    "tuya-panel-acrylic-kit": "^0.0.4",
+    "tuya-panel-classic-kit": "^0.0.4",
+    "tuya-panel-nordic-kit": "^0.0.4"
+  }
+}
