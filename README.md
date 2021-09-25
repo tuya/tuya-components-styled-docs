@@ -13,7 +13,7 @@
 ```md
 ## API
 
-<API src="../../../node_modules/tuya-panel-style-button/src/index.tsx" exports='["ClassicButton","NordicButton","AcrylicButton","PaintButton"]'></API>
+<API src="../../../node_modules/tuya-panel-style-button/lib/index.d.ts" exports='["ClassicButton","NordicButton","AcrylicButton","PaintButton"]'></API>
 ```
 
 ### 规范
