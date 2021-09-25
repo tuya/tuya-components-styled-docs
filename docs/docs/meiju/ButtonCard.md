@@ -1,7 +1,7 @@
 ---
 group:
   title: 枚举
-title: ButtonCard 枚举型卡片
+title: ButtonCard 枚举型按钮卡片
 demo: /enum/button-card
 ---
 

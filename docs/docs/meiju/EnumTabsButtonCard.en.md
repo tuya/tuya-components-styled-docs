@@ -1,7 +1,7 @@
 ---
 group:
   title: Enumerate
-title: EnumTabsButtonCard 枚举型选项卡片
+title: EnumTabsButtonCard
 demo: /enum/enum-tabs-button-card
 ---
 
