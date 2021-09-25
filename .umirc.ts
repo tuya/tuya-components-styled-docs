@@ -38,8 +38,10 @@ export default defineConfig({
     demoUrl:
       process.env.NODE_ENV === 'development'
         ? 'https://tuya.github.io/tuya-panel-kit/tuya-components-styled'
-        // ? 'https://localhost:8081'
-        : 'https://tuya.github.io/tuya-panel-kit/tuya-components-styled'
+        : // ? 'https://localhost:8081'
+          'https://tuya.github.io/tuya-panel-kit/tuya-components-styled',
+    qrcode:
+      'tuyaSmart--addVirtualDev?productId=piczpunfin9ucqzv&token=release_common_component',
   },
   // 顶部导航
   // markdown中可通过meta中nav设置，这里是扩展的nav

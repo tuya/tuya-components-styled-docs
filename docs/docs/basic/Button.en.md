@@ -1,6 +1,7 @@
 ---
 group:
   title: Basic
+  order: 2
 title: Button
 demo: /basic/button
 ---
