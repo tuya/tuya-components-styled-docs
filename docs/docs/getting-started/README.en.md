@@ -8,6 +8,7 @@ group:
 
 title: Getting Started
 demo: /
+order: 1
 ---
 
 <br/>

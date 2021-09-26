@@ -8,6 +8,7 @@ group:
 
 title: 快速上手
 demo: /
+order: 1
 ---
 
 <br/>

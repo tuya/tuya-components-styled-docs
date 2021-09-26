@@ -4,4 +4,5 @@ group:
   order: 1
 
 title: Changelog
+order: 2
 ---
