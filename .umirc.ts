@@ -3,7 +3,7 @@ import { defineConfig, IConfig } from 'dumi';
 const isProd =
   process.env.NODE_ENV === 'production' && process.env.PREVIEW_PR !== 'true';
 
-const repo = 'tuya-umi-docs-team/tuya-components-styled-docs';
+const repo = 'saber2pr-umi/tuya-components-styled-docs';
 
 export default defineConfig({
   ssr: isProd ? {} : false,
