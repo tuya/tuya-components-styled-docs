@@ -1,6 +1,7 @@
 ---
 group:
   title: Basic
+  order: 2
 title: IconBackground
 demo: /basic/icon-background
 ---

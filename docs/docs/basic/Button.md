@@ -1,6 +1,7 @@
 ---
 group:
   title: 通用
+  order: 2
 title: Button 按钮
 demo: /basic/button
 ---

@@ -40,8 +40,10 @@ export default defineConfig({
     demoUrl:
       process.env.NODE_ENV === 'development'
         ? 'https://tuya.github.io/tuya-panel-kit/tuya-components-styled'
-        : // ? 'http://localhost:8000'
+        : // ? 'https://localhost:8081'
           'https://tuya.github.io/tuya-panel-kit/tuya-components-styled',
+    qrcode:
+      'tuyaSmart--addVirtualDev?productId=piczpunfin9ucqzv&token=release_common_component',
     typeAssetsUrl:
       'https://cdn.jsdelivr.net/gh/tuya-umi-docs-team/tuya-components-styled-docs@gh-pages/types-assets.json',
   },

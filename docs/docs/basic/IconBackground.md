@@ -1,6 +1,7 @@
 ---
 group:
   title: 通用
+  order: 2
 title: IconBackground 图标背景
 demo: /basic/icon-background
 ---
