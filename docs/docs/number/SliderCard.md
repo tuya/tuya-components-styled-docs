@@ -20,7 +20,7 @@ import { ClassicSliderCard, ClassicLargeSliderCard } from 'tuya-panel-classic-ki
 
 <ClassicSliderCard
   style={{ marginTop: 20 }}
-  title="滑动card"
+  title="Slider Card"
   icon={TuyaRNSvgs.power}
   value={value}
   unit="%"
@@ -38,8 +38,8 @@ import { ClassicSliderCard, ClassicLargeSliderCard } from 'tuya-panel-classic-ki
     },
   }}
   style={{ marginTop: 20 }}
-  title="粗的滑动条"
-  unit="条"
+  title="Thick sliders"
+  unit="%"
   value={value}
   handSlidingComplete={setValue}
   disabled
@@ -52,7 +52,7 @@ import { ClassicSliderCard, ClassicLargeSliderCard } from 'tuya-panel-classic-ki
 import { NordicLargeSliderCard } from 'tuya-panel-nordic-kit';
 
 <NordicLargeSliderCard
-  title="风速"
+  title="The wind speed"
   icon={TuyaRNSvgs.power}
   maximumValue={enumValue.length - 1}
   minimumValue={0}
@@ -88,7 +88,7 @@ import { AcrylicSliderCard } from 'tuya-panel-acrylic-kit';
   icon={IMAGE}
   bothSideIcons={[{ icon: TuyaRNSvgs.power }, { icon: TuyaRNSvgs.power }]}
   value={value1}
-  bottomPromptTexts={['最小', '最大']}
+  bottomPromptTexts={['min', 'max']}
   handSlidingComplete={setValue1}
 />
 <AcrylicSliderCard
@@ -99,7 +99,7 @@ import { AcrylicSliderCard } from 'tuya-panel-acrylic-kit';
   maximumValue={enumValue.length - 1}
   minimumValue={0}
   value={0}
-  bottomPromptTexts={['最小', '最大']}
+  bottomPromptTexts={['min', 'max']}
   renderValue={value => enumValue[value]}
 />
 ```

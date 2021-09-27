@@ -22,20 +22,20 @@ import TuyaRNSvgs from 'tuya-panel-kit/lib/components/iconfont/svg/defaultSvg';
 
 const list = [
   {
-    label: '按钮1',
+    label: 'Button1',
     key: '0',
     disabled: true,
   },
   {
-    label: '按钮2',
+    label: 'Button2',
     key: '1',
   },
   {
-    label: '按钮3',
+    label: 'Button3',
     key: '2',
   },
   {
-    label: '按钮4',
+    label: 'Button4',
     key: '3',
   },
 ];
@@ -53,7 +53,7 @@ function Demo() {
   return (
     <View>
       <ClassicButtonCard
-        title="工作模式"
+        title="Card Title"
         showIconBg={false}
         icon={TuyaRNSvgs.power}
         list={list}
@@ -61,7 +61,7 @@ function Demo() {
       />
       <Text style={styles.title}>受控制的多选</Text>
       <ClassicButtonCard
-        title="工作模式"
+        title="Card Title"
         icon={TuyaRNSvgs.power}
         iconSize={14}
         showIconBg
@@ -103,14 +103,14 @@ function DemoNordic() {
   return (
     <View>
       <NordicButtonCard
-        title="工作模式"
+        title="Card Title"
         showIconBg={false}
         icon={TuyaRNSvgs.power}
         list={list}
       />
       <Text style={styles.title}>自定义按钮渲染方法</Text>
       <NordicButtonCard
-        title="工作模式"
+        title="Card Title"
         showIconBg={false}
         icon={TuyaRNSvgs.power}
         list={list1}

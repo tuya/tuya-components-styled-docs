@@ -16,6 +16,24 @@ demo: /enum/enum-slider-card
 ### Acrylic
 
 ```jsx
+const data = [
+  {
+    label: 'close',
+    key: '0',
+  },
+  {
+    label: 'one',
+    key: '1',
+  },
+  {
+    label: 'two',
+    key: '2',
+  },
+  {
+    label: 'three',
+    key: '3',
+  },
+];
 export default () => {
   const [activeKey1, setActiveKey1] = useState('3');
 

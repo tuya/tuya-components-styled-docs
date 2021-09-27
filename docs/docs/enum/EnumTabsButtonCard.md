@@ -59,7 +59,7 @@ export default () => {
                 data={data}
                 title="Classic"
                 icon={TuyaRNSvgs.power}
-                unit="档"
+                unit="step"
                 onChange={key => setActiveKey(key)}
               />
               <ClassicEnumTabsButtonCard
@@ -67,7 +67,7 @@ export default () => {
                 data={data}
                 title="Custom theme"
                 icon={TuyaRNSvgs.power}
-                unit="档"
+                unit="step"
                 valueFontColor="#ff6700"
                 grooveBgColor="#000"
                 activeTextColor="#fff"

@@ -28,7 +28,7 @@ import TuyaRNSvgs from 'tuya-panel-kit/lib/components/iconfont/svg/defaultSvg';
   <ClassicButton
     onLongPress={() => console.log('long press')}
     icon={TuyaRNSvgs.power}
-    text="开关"
+    text="switch"
   />
   <Text style={styles.title}>No icon, no background</Text>
   <View style={{ flexDirection: 'row' }}>
@@ -36,7 +36,7 @@ import TuyaRNSvgs from 'tuya-panel-kit/lib/components/iconfont/svg/defaultSvg';
       width={90}
       showIcon={false}
       icon={TuyaRNSvgs.power}
-      text="开关"
+      text="switch"
       iconColor="#FFF"
       padding={[5, 0, 0, 5]}
     />
@@ -44,15 +44,15 @@ import TuyaRNSvgs from 'tuya-panel-kit/lib/components/iconfont/svg/defaultSvg';
       width={90}
       showIconBg={false}
       icon={TuyaRNSvgs.power}
-      text="开关"
+      text="switch"
       iconColor="#158CFC"
       style={{ marginLeft: 10 }}
     />
   </View>
-  <Text style={styles.title}>没有图标、没有背景</Text>
+  <Text style={styles.title}>Set padding</Text>
   <ClassicButton
     icon={TuyaRNSvgs.power}
-    text="开关"
+    text="switch"
     iconColor="#FFF"
     style={{ marginLeft: 10 }}
     padding={[10, 40, 0, 0]}
@@ -66,13 +66,13 @@ import TuyaRNSvgs from 'tuya-panel-kit/lib/components/iconfont/svg/defaultSvg';
 import { NordicButton } from 'tuya-panel-style-button';
 import TuyaRNSvgs from 'tuya-panel-kit/lib/components/iconfont/svg/defaultSvg';
 
-<NordicButton icon={TuyaRNSvgs.power} text="开关" iconColor="#FFF" />;
+<NordicButton icon={TuyaRNSvgs.power} text="switch" iconColor="#FFF" />;
 ```
 
 ### Acrylic
 
 ```jsx
-<AcrylicButton icon={TuyaRNSvgs.power} text="开关" iconColor="#FFF" />
+<AcrylicButton icon={TuyaRNSvgs.power} text="switch" iconColor="#FFF" />
 ```
 
 ## API
