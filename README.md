@@ -1,34 +1,35 @@
-# Tuya 风格化组件文档
+# Tuya Stylized Components
 
-## 特性
+## Features
 
-- 多个开箱即用的高质量风格化组件
-- 完善的文档和事例
-- TypeScript 编写，拥有精准的声明与提示
-- 单元测试覆盖率 90+%
+- Multiple high-quality out-of-box components
+- Comprehensive documents and test cases
+- Support for TypeScript with accurate statements and prompts
+- Unit test coverage of over 90%
 
-## 预览
+## Preview
 
-<p id='previewRead'>
-使用手机端扫描下载<a href='https://smartapp.tuya.com/typaneldev'> 涂鸦面板-RN App</a>，在该 App 中扫描以下二维码您可以查看到目前涂鸦开放的功能组件，以供开发时使用，加快面板开发进度。
-</p>
+Click [Tuya Panel-RN App](https://smartapp.tuya.com/typaneldev) to show a QR code. Scan it and download **Tuya Panel-RN App**. Open this app and scan the following QR code. You can view the open functional components that Tuya provides for you to accelerate panel development.
 
-<center><p align="center"><img src="https://imagesd.tuyaus.com/tyims/rms-static/38645480-1ddd-11ec-ae0e-ef06697a0707-1632559651272.png?tyName=styleQr.png" width="30%" height="30%" /></p></center>
 
-## 安装
+<center><p align="left"><img src="https://imagesd.tuyaus.com/tyims/rms-static/38645480-1ddd-11ec-ae0e-ef06697a0707-1632559651272.png?tyName=styleQr.png" width="30%" height="30%" /></p></center>
+
+## Installation
 
 ```shell
 npm install tuya-panel-acrylic-kit tuya-panel-classic-kit tuya-panel-nordic-kit
+```
 
 or
 
+```
 yarn add tuya-panel-acrylic-kit tuya-panel-classic-kit tuya-panel-nordic-kit
 ```
 
-## 技术支持
+## Technical support
 
-- [开发者中心](https://developer.tuya.com/cn/)
+- [Tuya IoT Developer Platform](https://developer.tuya.com/en/)
 
-- [帮助中心](https://support.tuya.com/cn/help)
+- [Help Center](https://support.tuya.com/en/help)
 
-- [技术支持工单中心](https://iot.tuya.com/council/)
+- [Service and support](https://iot.tuya.com/council/)
