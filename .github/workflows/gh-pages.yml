@@ -32,3 +32,4 @@ jobs:
           workflow: ci-tuya-components-styled-docs
           repo: tuya/tuya-panel-kit-docs
           token: ${{ secrets.PERSONAL_TOKEN_MUHAI_BOT }}
+          ref: main
