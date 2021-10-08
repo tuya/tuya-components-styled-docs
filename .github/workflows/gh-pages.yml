@@ -4,6 +4,7 @@ on:
     branches:
       - master
 jobs:
+  # PERSONAL_TOKEN_MUHAI_BOT, workflow
   Deploy-Pages:
     runs-on: ubuntu-18.04
     steps:
@@ -24,3 +25,10 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
+
+      - name: Push SubModules
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: ci-tuya-components-styled-docs
+          repo: tuya/tuya-panel-kit-docs
+          token: ${{ secrets.PERSONAL_TOKEN_MUHAI_BOT }}
