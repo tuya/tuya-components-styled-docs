@@ -80,9 +80,6 @@ export default defineConfig({
       },
     ],
   },
-  scripts: [
-    'https://cdn.jsdelivr.net/gh/tuya/tuya-panel-kit-docs@gh-pages/js/HEARTBEAT.js',
-  ],
   resolve: {
     passivePreview: true,
   },
