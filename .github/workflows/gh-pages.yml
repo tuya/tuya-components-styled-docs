@@ -2,7 +2,7 @@ name: Github Pages
 on:
   push:
     branches:
-      - master
+      - main
 jobs:
   # PERSONAL_TOKEN_MUHAI_BOT, workflow
   Deploy-Pages:
