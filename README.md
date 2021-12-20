@@ -33,3 +33,4 @@ yarn add tuya-panel-acrylic-kit tuya-panel-classic-kit tuya-panel-nordic-kit
 - [Help Center](https://support.tuya.com/en/help)
 
 - [Service and support](https://iot.tuya.com/council/)
+
