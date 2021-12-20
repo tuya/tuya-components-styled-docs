@@ -44,7 +44,7 @@ export default defineConfig({
           'https://tuya.github.io/tuya-panel-kit/tuya-components-styled',
     qrcode:
       'tuyaSmart--addVirtualDev?productId=piczpunfin9ucqzv&token=release_common_component',
-    typeAssetsUrl: `https://cdn.jsdelivr.net/gh/${repo}@gh-pages/types-assets.json`,
+    typeAssetsUrl: `https://panel-docs.tuyacn.com/types-assets.json`,
   },
   // 顶部导航
   // markdown中可通过meta中nav设置，这里是扩展的nav
@@ -86,7 +86,7 @@ export default defineConfig({
   hash: isProd,
   base: isProd ? `/${repo.split('/')[1]}` : '/', // router base
   publicPath: isProd
-    ? `//cdn.jsdelivr.net/gh/${repo}@gh-pages/` // cdn地址
+    ? `/` // cdn地址
     : '/',
   // more config: https://d.umijs.org/config
 } as IConfig);
