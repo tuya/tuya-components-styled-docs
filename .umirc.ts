@@ -86,7 +86,7 @@ export default defineConfig({
   hash: isProd,
   base: isProd ? `/${repo.split('/')[1]}` : '/', // router base
   publicPath: isProd
-    ? `/tuya-components-styled-docs` // cdn地址
+    ? `/tuya-components-styled-docs/` // cdn地址
     : '/',
   // more config: https://d.umijs.org/config
 } as IConfig);
